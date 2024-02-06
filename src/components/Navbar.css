@@ -10,6 +10,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: .4s ease-in-out;
+}
+
+#navbar h2 a:hover {
+  transform: scale(.95);
 }
 
 #navbar form {
@@ -33,4 +38,9 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: .4s ease-in-out;
+}
+
+#navbar form button:hover {
+  transform: scale(.95);
 }
